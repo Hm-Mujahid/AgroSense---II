@@ -1,0 +1,11 @@
+{
+  "metrics": {
+    "accuracy": 0.475,
+    "precision_macro": 0.30647672872736814,
+    "recall_macro": 0.30312911725955205,
+    "f1_macro": 0.281680364723843
+  },
+  "trained_at": "2025-12-07T10:39:33.539762",
+  "train_samples": 640,
+  "test_samples": 160
+}

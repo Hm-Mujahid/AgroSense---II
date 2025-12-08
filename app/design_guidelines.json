@@ -1,0 +1,126 @@
+{
+  "identity": {
+    "persona": "E1: The Anti-AI Designer",
+    "mission": "Create a clinical, data-first interface that feels like a high-end scientific instrument, not a generic SaaS dashboard.",
+    "principles": [
+      "Fusion over Imitation: Mix 'Swiss Medical Journal' aesthetics with 'Agricultural Field Data'.",
+      "Emotion First: Trust, Precision, Authority.",
+      "Content is King: Data legibility is the primary design constraint.",
+      "Zoom In: Use macro textures of plants to ground the data in reality.",
+      "Negative Space: High density for data, high breathing room for containers."
+    ]
+  },
+  "typography": {
+    "primary_font": "IBM Plex Sans",
+    "secondary_font": "Inter",
+    "mono_font": "JetBrains Mono",
+    "google_fonts_url": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap",
+    "usage": {
+      "headings": "font-sans (IBM Plex Sans), tracking-tight, font-medium",
+      "body": "font-secondary (Inter), text-slate-600 leading-relaxed",
+      "data": "font-mono (JetBrains Mono), text-xs or text-sm, tracking-wide",
+      "labels": "font-mono, uppercase, text-[10px], tracking-[0.2em], text-slate-400"
+    }
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#064e3b",
+        "foreground": "#ffffff",
+        "50": "#ecfdf5",
+        "100": "#d1fae5",
+        "900": "#064e3b"
+      },
+      "secondary": {
+        "DEFAULT": "#f1f5f9",
+        "foreground": "#0f172a"
+      },
+      "accent": {
+        "DEFAULT": "#0ea5e9",
+        "foreground": "#ffffff"
+      },
+      "destructive": {
+        "DEFAULT": "#ef4444",
+        "foreground": "#ffffff"
+      },
+      "background": "#ffffff",
+      "surface": "#f8fafc",
+      "border": "#e2e8f0"
+    },
+    "semantic": {
+      "success": "#10b981",
+      "warning": "#f59e0b",
+      "error": "#ef4444",
+      "info": "#3b82f6"
+    }
+  },
+  "layout": {
+    "grid_system": "The Control Room Grid (Mode B)",
+    "spacing": {
+      "container_padding": "p-6 md:p-8 lg:p-12",
+      "element_gap": "gap-4 md:gap-6",
+      "section_gap": "gap-8 md:gap-12"
+    },
+    "containers": {
+      "card": "bg-white border border-slate-200 shadow-sm rounded-sm",
+      "panel": "bg-slate-50/50 border border-slate-200/60 rounded-sm backdrop-blur-sm"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 rounded-sm px-6 py-2 font-medium text-sm transition-all shadow-sm hover:shadow-md",
+      "secondary": "bg-white border border-slate-200 text-slate-700 hover:bg-slate-50 rounded-sm px-6 py-2 font-medium text-sm transition-all",
+      "ghost": "hover:bg-slate-100 text-slate-600 rounded-sm px-4 py-2"
+    },
+    "inputs": {
+      "default": "bg-white border-slate-200 focus:border-primary focus:ring-1 focus:ring-primary/20 rounded-sm h-10 text-sm font-secondary placeholder:text-slate-400"
+    },
+    "cards": {
+      "style": "rounded-sm border border-slate-200 bg-white shadow-[0_1px_2px_rgba(0,0,0,0.05)]",
+      "header": "border-b border-slate-100 p-4 bg-slate-50/30"
+    }
+  },
+  "visual_enhancers": {
+    "textures": "Use subtle noise overlays on sidebars or dark panels.",
+    "shadows": "Minimalist. shadow-sm or shadow-md only. No large diffuse shadows.",
+    "borders": "Crisp 1px borders are preferred over shadows for separation.",
+    "glassmorphism": "Use sparingly. Only for sticky headers or floating action bars. backdrop-blur-md bg-white/80 border-b border-slate-200/50."
+  },
+  "images": {
+    "hero_bg": {
+      "url": "https://images.unsplash.com/photo-1724531281596-cfae90d5a082?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHw0fHxoZWFsdGh5JTIwY3JvcCUyMGZpZWxkJTIwY2xvc2UlMjB1cHxlbnwwfHx8fDE3NjUxMDM3NDN8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Aerial view of organized crop rows. Use as a subtle background texture or hero image with overlay.",
+      "category": "background"
+    },
+    "login_side": {
+      "url": "https://images.unsplash.com/photo-1650295894392-7fea9aa5a5a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxhZ3JpY3VsdHVyYWwlMjBzY2llbnRpc3QlMjBsYWIlMjByZXNlYXJjaHxlbnwwfHx8fDE3NjUxMDM3NDF8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Scientist with microscope. Use for Login/Signup side panel to establish clinical trust.",
+      "category": "hero"
+    },
+    "texture_leaf": {
+      "url": "https://images.unsplash.com/photo-1643482432225-59187a0973cc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxwbGFudCUyMGxlYWYlMjB0ZXh0dXJlJTIwbWFjcm98ZW58MHx8fHwxNzY1MTAzNzQ0fDA&ixlib=rb-4.1.0&q=85",
+      "description": "Macro leaf texture. Use for 'Analysis' cards or empty states.",
+      "category": "texture"
+    },
+    "healthy_crop": {
+      "url": "https://images.unsplash.com/photo-1578940945559-35cc8370e400?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxoZWFsdGh5JTIwY3JvcCUyMGZpZWxkJTIwY2xvc2UlMjB1cHxlbnwwfHx8fDE3NjUxMDM3NDN8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Green wheat close up. Use for 'Healthy' status indicators or success states.",
+      "category": "content"
+    }
+  },
+  "instructions_to_main_agent": {
+    "general": "You are building a scientific instrument. Precision is key. Do not use rounded-xl or rounded-2xl. Stick to rounded-sm or rounded-md. Use the 'Control Room' grid for the dashboard.",
+    "charts": "Use Recharts. Style them minimally. Remove grid lines if possible, or make them very subtle (stroke-slate-100). Use the brand palette for data series.",
+    "forms": "This is a data-heavy app. Forms should be dense but legible. Use 'grid-cols-2' for input fields to save vertical space. Group related fields (Environmental vs Visual) into fieldsets with clear legends.",
+    "tables": "Use Shadcn Table. Add 'whitespace-nowrap' to cells. Use a monospaced font for numerical data columns.",
+    "navigation": "Sidebar navigation is preferred for this type of app. Use a dark sidebar (bg-slate-900) to contrast with the light data panels."
+  },
+  "universal_guidelines": [
+    "Do not use gradients for backgrounds. Use solid colors or subtle noise.",
+    "Do not use 'Inter' for headings. Use 'IBM Plex Sans'.",
+    "Do not center text in cards unless it is a stat summary.",
+    "Always add hover states to interactive elements.",
+    "Use 'data-testid' for all interactive elements.",
+    "Ensure contrast ratios meet WCAG AA standards."
+  ]
+}

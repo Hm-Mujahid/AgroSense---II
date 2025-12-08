@@ -1,0 +1,112 @@
+{
+  "Healthy": {
+    "treatment": "No treatment required. Continue regular care and monitoring.",
+    "prevention": "Maintain proper watering, fertilization, and pest control practices.",
+    "chemicals": []
+  },
+  "Early_Blight": {
+    "treatment": "Remove infected leaves. Apply fungicide containing chlorothalonil or copper-based compounds.",
+    "prevention": "Practice crop rotation. Avoid overhead watering. Use mulch to prevent soil splash.",
+    "chemicals": ["Chlorothalonil (Daconil)", "Copper hydroxide", "Mancozeb"]
+  },
+  "Late_Blight": {
+    "treatment": "Apply systemic fungicides immediately. Remove and destroy infected plants.",
+    "prevention": "Use resistant varieties. Ensure good air circulation. Avoid evening watering.",
+    "chemicals": ["Metalaxyl", "Cymoxanil", "Fluazinam"]
+  },
+  "Leaf_Mold": {
+    "treatment": "Improve ventilation. Apply fungicides containing chlorothalonil or mancozeb.",
+    "prevention": "Reduce humidity. Space plants adequately. Remove infected leaves promptly.",
+    "chemicals": ["Chlorothalonil", "Mancozeb", "Copper fungicides"]
+  },
+  "Septoria_Leaf_Spot": {
+    "treatment": "Remove affected leaves. Apply chlorothalonil or copper-based fungicides.",
+    "prevention": "Mulch around plants. Water at soil level. Rotate crops annually.",
+    "chemicals": ["Chlorothalonil", "Copper compounds", "Mancozeb"]
+  },
+  "Bacterial_Spot": {
+    "treatment": "Apply copper-based bactericides. Remove severely infected plants.",
+    "prevention": "Use disease-free seeds. Avoid overhead irrigation. Practice crop rotation.",
+    "chemicals": ["Copper hydroxide", "Copper sulfate", "Streptomycin (with caution)"]
+  },
+  "Yellow_Leaf_Curl_Virus": {
+    "treatment": "Remove infected plants immediately. Control whitefly vectors with insecticides.",
+    "prevention": "Use resistant varieties. Install insect screening. Control whiteflies early.",
+    "chemicals": ["Imidacloprid (for whiteflies)", "Thiamethoxam (for whiteflies)"]
+  },
+  "Bacterial_Wilt": {
+    "treatment": "No chemical cure. Remove and destroy infected plants. Disinfect tools.",
+    "prevention": "Plant resistant varieties. Control cucumber beetles. Rotate crops.",
+    "chemicals": ["No effective chemicals - focus on prevention"]
+  },
+  "Rust": {
+    "treatment": "Apply triazole or strobilurin fungicides at first sign of infection.",
+    "prevention": "Plant resistant varieties. Remove volunteer plants. Monitor regularly.",
+    "chemicals": ["Propiconazole", "Tebuconazole", "Azoxystrobin"]
+  },
+  "Powdery_Mildew": {
+    "treatment": "Apply sulfur or potassium bicarbonate sprays. Improve air circulation.",
+    "prevention": "Avoid dense planting. Water in morning. Use resistant varieties.",
+    "chemicals": ["Sulfur", "Potassium bicarbonate", "Neem oil (organic)"]
+  },
+  "Septoria_Tritici_Blotch": {
+    "treatment": "Apply DMI or QoI fungicides. Remove infected leaves.",
+    "prevention": "Plow under crop residue. Rotate crops. Plant resistant varieties.",
+    "chemicals": ["Epoxiconazole", "Azoxystrobin", "Pyraclostrobin"]
+  },
+  "Bacterial_Leaf_Blight": {
+    "treatment": "Apply copper bactericides. Drain fields properly.",
+    "prevention": "Use clean seeds. Avoid excessive nitrogen. Drain waterlogged fields.",
+    "chemicals": ["Copper hydroxide", "Streptomycin sulfate"]
+  },
+  "Brown_Spot": {
+    "treatment": "Apply mancozeb or carbendazim fungicides. Improve soil fertility.",
+    "prevention": "Use healthy seeds. Apply balanced fertilizer. Maintain proper water levels.",
+    "chemicals": ["Mancozeb", "Carbendazim", "Tricyclazole"]
+  },
+  "Leaf_Smut": {
+    "treatment": "Remove infected leaves. Apply propiconazole-based fungicides.",
+    "prevention": "Use resistant varieties. Maintain field hygiene. Avoid dense sowing.",
+    "chemicals": ["Propiconazole", "Carbendazim"]
+  },
+  "Northern_Leaf_Blight": {
+    "treatment": "Apply strobilurin or triazole fungicides when lesions first appear.",
+    "prevention": "Rotate crops. Plant resistant hybrids. Bury crop residue.",
+    "chemicals": ["Azoxystrobin", "Propiconazole", "Pyraclostrobin"]
+  },
+  "Gray_Leaf_Spot": {
+    "treatment": "Apply strobilurin fungicides. Remove infected plant debris.",
+    "prevention": "Rotate crops for 2+ years. Till crop residue. Use resistant hybrids.",
+    "chemicals": ["Azoxystrobin", "Pyraclostrobin", "Trifloxystrobin"]
+  },
+  "Common_Rust": {
+    "treatment": "Apply triazole or strobilurin fungicides at first rust pustules.",
+    "prevention": "Plant resistant hybrids. Scout fields regularly. Time planting appropriately.",
+    "chemicals": ["Propiconazole", "Azoxystrobin", "Tebuconazole"]
+  },
+  "Fusarium_Wilt": {
+    "treatment": "No chemical cure. Remove infected plants. Use soil fumigants pre-planting.",
+    "prevention": "Plant resistant varieties. Avoid planting in infested soil. Maintain soil health.",
+    "chemicals": ["Soil fumigants (pre-plant only)", "Biological controls"]
+  },
+  "Verticillium_Wilt": {
+    "treatment": "No effective treatment. Remove infected plants. Soil solarization may help.",
+    "prevention": "Use resistant varieties. Practice long crop rotations. Improve soil health.",
+    "chemicals": ["No effective chemicals - prevention is key"]
+  },
+  "Frogeye_Leaf_Spot": {
+    "treatment": "Apply strobilurin or triazole fungicides at early growth stages.",
+    "prevention": "Plant resistant varieties. Rotate crops. Bury crop residue.",
+    "chemicals": ["Azoxystrobin", "Pyraclostrobin", "Tebuconazole"]
+  },
+  "Downy_Mildew": {
+    "treatment": "Apply systemic fungicides containing metalaxyl or fosetyl-aluminum.",
+    "prevention": "Use resistant varieties. Improve air circulation. Avoid overhead watering.",
+    "chemicals": ["Metalaxyl", "Fosetyl-Al", "Copper compounds"]
+  },
+  "Phytophthora_Blight": {
+    "treatment": "Apply mefenoxam or phosphorous acid fungicides. Improve drainage.",
+    "prevention": "Plant in well-drained soil. Use raised beds. Avoid overwatering.",
+    "chemicals": ["Mefenoxam", "Phosphorous acid", "Dimethomorph"]
+  }
+}
